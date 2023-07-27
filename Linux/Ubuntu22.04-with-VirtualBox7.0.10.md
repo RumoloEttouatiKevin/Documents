@@ -1,4 +1,4 @@
-# Installation d'une VM Linux avec un environnement de dev
+# Installation d'une VM Linux/Ubuntu 22.04 avec VirtualBox 7.0.10
 
 ## 1. Téléchargements
 
