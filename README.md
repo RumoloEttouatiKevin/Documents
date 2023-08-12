@@ -1,4 +1,4 @@
-# Personal documents
+# Personal documentation on various subjects
 
 Linux:
 
