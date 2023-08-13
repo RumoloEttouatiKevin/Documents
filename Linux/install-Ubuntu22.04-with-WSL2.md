@@ -89,7 +89,7 @@
 
 ## 9. Divers utilitaires
 
-1. `sudo apt-get install make`
+1. `sudo apt-get install build-essential`
 
 ## 10. Nettoyage du système
 

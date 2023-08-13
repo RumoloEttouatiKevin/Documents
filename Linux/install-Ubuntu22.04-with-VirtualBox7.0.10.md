@@ -159,7 +159,7 @@ IN PROGRESS !!!
 
 ## 13. Divers utilitaires
 
-1. `sudo apt-get install make dkms build-essential`
+1. `sudo apt-get install dkms build-essential`
 
 ## 14. Nettoyage du système
 
