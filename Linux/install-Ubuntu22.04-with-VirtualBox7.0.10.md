@@ -142,16 +142,26 @@
 5. Recharger l'utilisateur courant ou ouvrir un nouveau terminal
    1. `su - ${USER}`
 
-## 11. Apache Mysql PHP
+## 11. Installation de npm
+
+1. Consulter le repo de [NodeSource](https://github.com/nodesource/distributions)
+2. Installer le **repository source apt** et lancer l'installation (source à modifier en fonction de la version souhaitée)
+
+   ```shell
+   curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - &&\
+   sudo apt-get install -y nodejs
+   ```
+
+## 12. Apache Mysql PHP
 
 <!-- TODO -->
 IN PROGRESS !!!
 
-## 12. Divers utilitaires
+## 13. Divers utilitaires
 
 1. `sudo apt-get install make dkms build-essential`
 
-## 13. Nettoyage du système
+## 14. Nettoyage du système
 
 1. `sudo apt-get autoremove`
 2. `sudo apt-get autoclean`
