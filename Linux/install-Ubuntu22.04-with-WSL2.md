@@ -7,6 +7,11 @@
 2. Saisir son identifiant d'utilisateur pour Linux (**krum**)
 3. Saisir un mot de passe pour cet utilisateur (il est généralement demandé lors de commande `sudo`)
 
+- S'il y a une erreur de type **WslRegisterDistribution failed with error: 0x80370114** lors de l'installation d'Ubuntu, il faut activer les fonctionnalités Windows suivantes :
+  - Saisir en ligne de commande (cmd) :
+    - `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+    - `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+
 ## 2. Exécution de WSL
 
 1. WSL/Ubuntu peut être lancé de deux manières :
