@@ -76,7 +76,8 @@
    7. `git config --global user.email "votre-email@exemple.fr"`
    8. `git config --global core.editor vim`
    9. `git config --global color.ui true`
-   10. `git config --global core.fileMode false` !! Uniquement si souhaité.
+   10. `git config core.fileMode false` !! Uniquement si souhaité.
+       1. `git config --global core.fileMode false` !! Uniquement si souhaité.
 
 ## 8. Installation de Docker
 
